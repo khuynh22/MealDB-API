@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension String {
+    func removeEmpty() -> Bool {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+}
