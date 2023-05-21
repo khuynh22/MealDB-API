@@ -17,6 +17,7 @@
 		1210F6A32A19896600C1EDB2 /* removeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1210F6A22A19896600C1EDB2 /* removeEmpty.swift */; };
 		1210F6A52A198D9500C1EDB2 /* fetchSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1210F6A42A198D9500C1EDB2 /* fetchSupport.swift */; };
 		1210F6AC2A19B79600C1EDB2 /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1210F6AB2A19B79600C1EDB2 /* MealModel.swift */; };
+		1210F6AE2A1AA88300C1EDB2 /* IngredientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1210F6AD2A1AA88300C1EDB2 /* IngredientModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1210F6A22A19896600C1EDB2 /* removeEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeEmpty.swift; sourceTree = "<group>"; };
 		1210F6A42A198D9500C1EDB2 /* fetchSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchSupport.swift; sourceTree = "<group>"; };
 		1210F6AB2A19B79600C1EDB2 /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		1210F6AD2A1AA88300C1EDB2 /* IngredientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				1210F6AB2A19B79600C1EDB2 /* MealModel.swift */,
+				1210F6AD2A1AA88300C1EDB2 /* IngredientModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				1210F6AC2A19B79600C1EDB2 /* MealModel.swift in Sources */,
 				1210F6A52A198D9500C1EDB2 /* fetchSupport.swift in Sources */,
+				1210F6AE2A1AA88300C1EDB2 /* IngredientModel.swift in Sources */,
 				1210F6A32A19896600C1EDB2 /* removeEmpty.swift in Sources */,
 				1210F6792A196EFA00C1EDB2 /* DessertListView.swift in Sources */,
 				1210F6772A196EFA00C1EDB2 /* MealDB_APIApp.swift in Sources */,
