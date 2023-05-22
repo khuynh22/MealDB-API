@@ -13,12 +13,12 @@ struct DessertListView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(viewModel.meals, id: \.id) { meal in
+                ForEach(viewModel.meals, id: \.idMeal) { meal in
                     NavigationLink {
-                        MealDetailView(meal: meal)
-                            .navigationTitle(meal.name)
+                        DessertDetailView(meal: meal)
+                            .navigationTitle(meal.strMeal)
                     } label: {
-                        Text("\(meal.name)")
+                        Text("\(meal.strMeal)")
                     }
                 }
             }
@@ -39,6 +39,25 @@ struct DessertListView: View {
         }
         .sheet(isPresented: $viewModel.changingCategory) {
             ChangeCategoryForm(category: $viewModel.category, isPresented: $viewModel.changingCategory)
+        }
+    }
+}
+
+struct ChangeCategoryForm: View {
+    @Binding var category: MealModelCategory
+    @Binding var isPresented: Bool
+    
+    var body: some View {
+        Form {
+            Picker("Category", selection: $category) {
+                ForEach(MealModelCategory.allCases, id: \.rawValue) {
+                    Text($0.rawValue)
+                        .tag($0)
+                }
+            }
+            Button("Done") {
+                isPresented = false
+            }
         }
     }
 }

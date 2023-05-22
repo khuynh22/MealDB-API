@@ -10,7 +10,6 @@ import Foundation
 extension DessertListView {
     @MainActor class ViewModel: ObservableObject {
         @Published private(set) var meals = [MealModel]()
-        
         @Published var category = MealModelCategory.Dessert
         @Published var changingCategory = false
         

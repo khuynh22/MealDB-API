@@ -20,15 +20,19 @@ struct DessertDetailView: View {
         ScrollView {
             VStack {
                 DessertRemoteImage(url: meal.strMealThumb!)
-                    .frame(width: 250, height: 250)
+                    .frame(width: 300, height: 300)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                     .padding()
+                
+                Text(meal.strMeal)
+                    .font(.largeTitle)
+                    .bold()
                 
                 Section {
                     ForEach(viewModel.ingredients) { ingredient in
                         HStack {
                             Text(ingredient.name)
-                            Text(" - ")
+                                .bold()
                             Text(ingredient.quantity)
                         }
                     }
@@ -58,6 +62,6 @@ struct DessertDetailView: View {
 
 struct DessertDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DessertDetailView()
+        DessertDetailView(meal: MealModel.example)
     }
 }

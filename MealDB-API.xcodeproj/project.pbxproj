@@ -182,8 +182,8 @@
 		1210F6AA2A19911E00C1EDB2 /* ViewsExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				1210F6B32A1AC5B700C1EDB2 /* DessertDetailEx.swift */,
 				1210F6B82A1B091B00C1EDB2 /* DessertListEx.swift */,
+				1210F6B32A1AC5B700C1EDB2 /* DessertDetailEx.swift */,
 			);
 			path = ViewsExtensions;
 			sourceTree = "<group>";
@@ -505,7 +505,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Khang-Nguyen-Huynh.MealDB-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -543,7 +545,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Khang-Nguyen-Huynh.MealDB-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

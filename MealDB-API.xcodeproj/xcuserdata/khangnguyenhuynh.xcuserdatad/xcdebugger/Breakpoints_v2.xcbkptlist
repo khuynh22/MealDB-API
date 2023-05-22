@@ -18,6 +18,38 @@
             endingLineNumber = "33"
             landmarkName = "MealModelCategoryQuery"
             landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "7BB3B9B4-8790-42FF-B73E-B052B4295661 - 1e83ce18c13ee1ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealDB_API.MealModelCategory.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;MealDB_API.MealModelCategory&gt;"
+                  moduleName = "MealDB-API"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khangnguyenhuynh/Desktop/Fetch%20Interview/MealDB-API/MealDB-API/Models/MealModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "7BB3B9B4-8790-42FF-B73E-B052B4295661 - fc942856c73f7a71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealDB_API.MealModelCategory.rawValue.getter : Swift.String"
+                  moduleName = "MealDB-API"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khangnguyenhuynh/Desktop/Fetch%20Interview/MealDB-API/MealDB-API/Models/MealModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
